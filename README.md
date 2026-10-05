@@ -76,19 +76,6 @@ Misal: ATR = 45 olsun. Stop = 67.5 nöqtə, 1 MNQ-nun riski = $135. $300 riskdə
 - NY açılışı zonasında 24 qonşu kombinasiyadan 21-i sınaq dövründə də müsbət qalıb.
 - Eyni metod XAUUSD, EURUSD, GBPUSD və BTCUSD üzərində də yoxlanılıb. Heç birində dayanıqlı üstünlük tapılmayıb. Effekt NQ-yə xasdır.
 
-## TradingView indikatoru
-[`NQ_Open_Momentum.pine`](NQ_Open_Momentum.pine) (Pine Script v6)
-
-1. TradingView-də **Pine Editor → New blank indicator** seç, kodu yapışdır, sonra **Save → Add to chart**.
-2. Qrafik: **NQ1! / MNQ1!**, 1–5 dəqiqəlik interval.
-3. Default ayarlar: bias pəncərəsi `0930-1015`, Follow, ATR × 1.5, 2R. "Trade başına risk ($)" sahəsinə öz risk məbləğini yaz.
-4. Alert üçün: **Condition → NQ Open Momentum (ATR) → "Any alert() function call"**. Girişdə (istiqamət, SL, TP, MNQ sayı) və çıxışda bildiriş göndərir.
-
-İndikatorun göstərdikləri: bias açılışı xətti, giriş, SL və TP xətləri, kontrakt sayı, trade nəticələri, qrafik tarixi üzrə statistika cədvəli.
-
-> [!NOTE]
-> İndikator ABŞ bayram günlərini tanımır. O günlərdə də siqnal verəcək, onları əl ilə buraxmaq lazımdır.
-
 ## Risk qeydləri
 - Trade başına hesabın **0.5%-indən çox** risk etmə. 31R drawdown 0.5% riskdə təxminən −15.5% deməkdir.
 - 11–14 ardıcıl zərərli trade və 3–4 zərərli ay sistem üçün normaldır.
